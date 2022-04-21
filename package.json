@@ -1,0 +1,36 @@
+{
+  "name": "@tencent/alfred-tools",
+  "version": "6.3.2",
+  "description": "Happy Work Every Day",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "version": "npm run changelog && git add -A .",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "zixuanwen",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://mirrors.tencent.com/npm/"
+  },
+  "dependencies": {
+    "alfy": "^0.12.2",
+    "axios": "^0.26.1",
+    "cheerio": "*",
+    "crypto": "^1.0.1",
+    "fs-extra": "^10.0.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "node-browser-history": "^2.4.6",
+    "puppeteer": "^13.5.2",
+    "tinify": "^1.6.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.2",
+    "conventional-changelog-cli": "^2.2.2"
+  }
+}

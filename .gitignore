@@ -1,0 +1,11 @@
+node_modules
+/json/**
+/src/assets/bilibili/**
+/src/assets/bqb/**
+/src/assets/bing/**
+/src/assets/weread/**
+/src/assets/bdhot/**
+/src/assets/zhhot/**
+/src/assets/wx/**
+/src/assets/girl/**
+/src/assets/temporary/**
