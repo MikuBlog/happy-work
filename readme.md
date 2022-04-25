@@ -31,3 +31,9 @@ https://www.alfredapp.com/extras/theme/E2Il27hRTn/
 https://www.alfredapp.com/extras/theme/hbdfskPOgc/
 
 ![](https://bot.xuanzai.top/assets/64bf36375753f6982144aa8673535300-1648368303159.png)
+
+<br/>
+
+# 友情推荐
+
+> 【有道云翻译】 https://github.com/wensonsmith/YoudaoTranslator
