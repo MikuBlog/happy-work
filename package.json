@@ -14,9 +14,6 @@
   },
   "author": "zixuanwen",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://mirrors.tencent.com/npm/"
-  },
   "dependencies": {
     "alfy": "^1.0.0",
     "axios": "^0.26.1",
