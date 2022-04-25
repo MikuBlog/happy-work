@@ -80,6 +80,11 @@ const common = [
     description: 'diff -u <文件名> <文件名>',
     command: 'diff -u <文件名> <文件名>',
   },
+  {
+    label: 'npm 查看包版本',
+    description: 'npm view <包名> versions',
+    command: 'npm view <包名> versions',
+  },
 ]
 // 数组转换
 function transformList(sourceList) {
