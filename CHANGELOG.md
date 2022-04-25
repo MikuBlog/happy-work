@@ -1,3 +1,7 @@
+## [6.3.12](https://github.com/MikuBlog/happy-work/compare/v6.3.11...v6.3.12) (2022-04-25)
+
+
+
 ## [6.3.11](https://github.com/MikuBlog/happy-work/compare/v6.3.10...v6.3.11) (2022-04-25)
 
 
