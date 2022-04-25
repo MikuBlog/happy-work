@@ -16,40 +16,44 @@ async function downloadAllPicture(list) {
 const links = ['https://api.oick.cn/random/api.php?type=pc', 'https://api.iyk0.com/ecy/api.php']
 
 // 随机二次元
-const erciyuans = await Promise.all(new Array(9).fill(0).map(val => axios({
-  url: randomArr(links),
-  method: 'get'
-})))
-
-
-axios({
-  url: `https://www.mxnzp.com/api/image/girl/list/random?app_id=${process.env.moyu_appid}&app_secret=${process.env.moyu_appsecret}`,
-  method: 'get',
-}).then(async res => {
-  const { data } = res.data;
-  const list = erciyuans.map(val => ({
-    title: val.request.res.responseUrl,
-    subtitle: '回车访问链接',
-    arg: val.request.res.responseUrl,
-  }))
-  mkdir(dir);
-  clearDir(dir);
-  await downloadAllPicture(list);
-  const fileList = getDirFile(dir);
-  if (list.length) {
-    alfy.output(list.map((val, ind) => ({
-      ...val,
-      icon: {
-        path: resolve(`${dir}/${fileList[ind]}`),
-      }
-    })))
-  } else {
+async function toDo() {
+  const erciyuans = await Promise.all(new Array(9).fill(0).map(val => axios({
+    url: randomArr(links),
+    method: 'get'
+  })))
+  
+  
+  axios({
+    url: `https://www.mxnzp.com/api/image/girl/list/random?app_id=${process.env.moyu_appid}&app_secret=${process.env.moyu_appsecret}`,
+    method: 'get',
+  }).then(async res => {
+    const { data } = res.data;
+    const list = erciyuans.map(val => ({
+      title: val.request.res.responseUrl,
+      subtitle: '回车访问链接',
+      arg: val.request.res.responseUrl,
+    }))
+    mkdir(dir);
+    clearDir(dir);
+    await downloadAllPicture(list);
+    const fileList = getDirFile(dir);
+    if (list.length) {
+      alfy.output(list.map((val, ind) => ({
+        ...val,
+        icon: {
+          path: resolve(`${dir}/${fileList[ind]}`),
+        }
+      })))
+    } else {
+      alfy.output([{
+        title: `暂无查询结果`,
+      }])
+    }
+  }).catch(err => {
     alfy.output([{
-      title: `暂无查询结果`,
+      title: err.stack,
     }])
-  }
-}).catch(err => {
-  alfy.output([{
-    title: err.stack,
-  }])
-})
+  })
+}
+
+toDo();

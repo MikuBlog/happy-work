@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/alfred-tools",
+  "name": "alfred-tools",
   "version": "6.3.2",
   "description": "Happy Work Every Day",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "registry": "https://mirrors.tencent.com/npm/"
   },
   "dependencies": {
-    "alfy": "^0.12.2",
+    "alfy": "^1.0.0",
     "axios": "^0.26.1",
     "cheerio": "*",
     "crypto": "^1.0.1",

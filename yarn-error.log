@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/xuanzai/.nvm/versions/node/v16.14.2/bin/node /opt/homebrew/Cellar/yarn/1.22.18/libexec/bin/yarn.js
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/Users/xuanzai/.nvm/versions/node/v16.14.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://raw.githubusercontent.com/tance77/sqlite-async/25311b96f1cd297f2113c8b1967affe08cd072d9/package.json: ETIMEDOUT
+      at Timeout._onTimeout (/opt/homebrew/Cellar/yarn/1.22.18/libexec/lib/cli.js:141543:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "@tencent/alfred-tools",
+    "version": "6.3.2",
+    "description": "Happy Work Every Day",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "alfy-init",
+      "preuninstall": "alfy-cleanup",
+      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+      "version": "npm run changelog && git add -A .",
+      "postversion": "git push && git push --tags"
+    },
+    "author": "zixuanwen",
+    "license": "ISC",
+    "publishConfig": {
+      "registry": "https://mirrors.tencent.com/npm/"
+    },
+    "dependencies": {
+      "alfy": "^0.12.2",
+      "axios": "^0.26.1",
+      "cheerio": "*",
+      "crypto": "^1.0.1",
+      "fs-extra": "^10.0.1",
+      "md5": "^2.3.0",
+      "moment": "^2.29.1",
+      "node-browser-history": "^2.4.6",
+      "puppeteer": "^13.5.2",
+      "tinify": "^1.6.1"
+    },
+    "devDependencies": {
+      "alfy-test": "^0.4.2",
+      "conventional-changelog-cli": "^2.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

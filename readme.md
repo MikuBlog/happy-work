@@ -16,9 +16,7 @@ npm i @tencent/alfred-tools -g
 
 # 已有功能
 
-具体功能介绍可查看查阅文档：
-
-> https://iwiki.woa.com/pages/viewpage.action?pageId=1564470010
+待补充
 
 <br/>
 

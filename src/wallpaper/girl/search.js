@@ -11,40 +11,44 @@ async function downloadAllPicture(list) {
   })
 }
 
-if (!process.env.moyu_appid || !process.env.moyu_appsecret) {
-  alfy.output([{
-    title: '请先配置moyu_appid和moyu_appsecret',
-  }])
-} else {
-  try {
-    const sexys = await Promise.all(new Array(9).fill(0).map(val => axios({
-      url: 'https://api.iyk0.com/mtyh/?return=json',
-      method: 'get'
-    })))
-    const list = sexys.map(val => ({
-      title: val.data.imgurl,
-      subtitle: val.data.size,
-      arg: val.data.imgurl,
-    }))
-    mkdir(dir);
-    clearDir(dir);
-    await downloadAllPicture(list);
-    const fileList = getDirFile(dir);
-    if (list.length) {
-      alfy.output(list.map((val, ind) => ({
-        ...val,
-        icon: {
-          path: resolve(`${dir}/${fileList[ind]}`),
-        }
+async function toDo() {
+  if (!process.env.moyu_appid || !process.env.moyu_appsecret) {
+    alfy.output([{
+      title: '请先配置moyu_appid和moyu_appsecret',
+    }])
+  } else {
+    try {
+      const sexys = await Promise.all(new Array(9).fill(0).map(val => axios({
+        url: 'https://api.iyk0.com/mtyh/?return=json',
+        method: 'get'
       })))
-    } else {
+      const list = sexys.map(val => ({
+        title: val.data.imgurl,
+        subtitle: val.data.size,
+        arg: val.data.imgurl,
+      }))
+      mkdir(dir);
+      clearDir(dir);
+      await downloadAllPicture(list);
+      const fileList = getDirFile(dir);
+      if (list.length) {
+        alfy.output(list.map((val, ind) => ({
+          ...val,
+          icon: {
+            path: resolve(`${dir}/${fileList[ind]}`),
+          }
+        })))
+      } else {
+        alfy.output([{
+          title: `暂无查询结果`,
+        }])
+      }
+    } catch (err) {
       alfy.output([{
-        title: `暂无查询结果`,
+        title: err.toString(),
       }])
     }
-  } catch (err) {
-    alfy.output([{
-      title: err.toString(),
-    }])
   }
 }
+
+toDo();
