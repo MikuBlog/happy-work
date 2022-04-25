@@ -1,3 +1,12 @@
+## [6.3.9](https://github.com/MikuBlog/happy-work/compare/v6.3.8...v6.3.9) (2022-04-25)
+
+
+### Bug Fixes
+
+* 一系列问题 ([d3c6f5e](https://github.com/MikuBlog/happy-work/commit/d3c6f5ef6bd8bcc63fa85f149452ddac3b555da3))
+
+
+
 ## [6.3.8](https://github.com/MikuBlog/happy-work/compare/v6.3.7...v6.3.8) (2022-04-25)
 
 
