@@ -99,8 +99,8 @@ function transformList(sourceList) {
   return list
 }
 const matchItems = alfy.inputMatches(common, 'label');
-matchItems.length 
-? alfy.output(transformList(matchItems))
-: alfy.output(
-  transformList(common)
-)
+matchItems.length
+  ? alfy.output(transformList(matchItems))
+  : alfy.output(
+    transformList(common)
+  )
