@@ -3,10 +3,10 @@
 - 安装并导入：
 
 ```
-npm i @tencent/alfred-tools -g
+npm i @xuanzai/happy-work -g / yarn global add @xuanzai/happy-work
 ```
 
-> 这里建议使用node 16以上进行安装
+> 这里建议使用 node 16 以上进行安装
 
 - 出现下图红框所示则表示工作流安装成功！
 
