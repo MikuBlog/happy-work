@@ -1,4 +1,8 @@
-## 6.3.3 (2022-04-25)
+## [6.3.4](https://github.com/MikuBlog/happy-work/compare/v6.3.3...v6.3.4) (2022-04-25)
+
+
+
+## [6.3.3](https://github.com/MikuBlog/happy-work/compare/08775328edc79af670dce149bd35c0c1dd325e2c...v6.3.3) (2022-04-25)
 
 
 ### Bug Fixes
