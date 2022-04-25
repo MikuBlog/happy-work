@@ -1,3 +1,12 @@
+## [6.3.11](https://github.com/MikuBlog/happy-work/compare/v6.3.10...v6.3.11) (2022-04-25)
+
+
+### Features
+
+* 新增command命令 ([e04a93b](https://github.com/MikuBlog/happy-work/commit/e04a93b146c0d78e52df559bd85315748ff62ddf))
+
+
+
 ## [6.3.10](https://github.com/MikuBlog/happy-work/compare/v6.3.9...v6.3.10) (2022-04-25)
 
 
