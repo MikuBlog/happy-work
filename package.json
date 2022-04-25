@@ -10,10 +10,7 @@
     "preuninstall": "alfy-cleanup",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add -A .",
-    "postversion": "git push && git push --tags",
-    "patch": " npm version patch && npm publish",
-    "minor": "npm version minor && npm publish",
-    "major": "npm version major && npm publish"
+    "postversion": "git push && git push --tags"
   },
   "author": "xuanzai",
   "license": "ISC",
