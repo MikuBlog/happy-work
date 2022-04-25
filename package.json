@@ -11,9 +11,9 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add -A .",
     "postversion": "git push && git push --tags",
-    "patch": "npm run postversion && npm version patch && npm publish",
-    "minor": "npm version minor && npm publish && npm run postversion",
-    "major": "npm version major && npm publish && npm run postversion"
+    "patch": " npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish"
   },
   "author": "xuanzai",
   "license": "ISC",
