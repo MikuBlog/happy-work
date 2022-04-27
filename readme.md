@@ -10,7 +10,7 @@ npm i @xuanzai/happy-work -g
 yarn global add @xuanzai/happy-work
 ```
 
-> 这里建议使用 node 16 以上进行安装，如果还未装node，请先安装[nvm](https://github.com/nvm-sh/nvm)
+> 这里建议使用 node 16 以上进行安装。如果还未装node，请直接安装[nvm](https://github.com/nvm-sh/nvm)，再安装node即可~
 
 - 出现下图红框所示则表示工作流安装成功！
 
