@@ -1286,7 +1286,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询链接</string>
 				<key>type</key>
@@ -1333,7 +1333,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
@@ -1386,7 +1386,7 @@
 				<key>keyword</key>
 				<string>偏好设置</string>
 				<key>subtext</key>
-				<string>打开当前窗口偏好设置</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>偏好设置</string>
 				<key>withspace</key>
@@ -1451,7 +1451,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>控制台</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>打开浏览器控制台</string>
 				<key>withspace</key>
@@ -1472,7 +1472,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>terminal here</string>
 				<key>subtext</key>
-				<string>请先打开访答窗口再执行该命令（默认在desktop打开）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>在此处打开终端</string>
 				<key>withspace</key>
@@ -1534,7 +1534,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询链接</string>
 				<key>type</key>
@@ -1602,7 +1602,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字符串</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>解析生成二维码</string>
 				<key>type</key>
@@ -1649,7 +1649,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
@@ -1698,7 +1698,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询链接</string>
 				<key>type</key>
@@ -1796,7 +1796,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询浏览器历史记录</string>
 				<key>type</key>
@@ -1872,7 +1872,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>k</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>打开浏览器控制台</string>
 				<key>withspace</key>
@@ -1893,7 +1893,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>ph</string>
 				<key>subtext</key>
-				<string>打开当前窗口偏好设置</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>偏好设置</string>
 				<key>withspace</key>
@@ -1914,7 +1914,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>cf</string>
 				<key>subtext</key>
-				<string>请先打开访答窗口再执行该命令（默认在desktop打开）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>在此处创建文件</string>
 				<key>withspace</key>
@@ -1991,7 +1991,7 @@ end alfred_script</string>
 				<key>keyword</key>
 				<string>empty</string>
 				<key>subtext</key>
-				<string>一键清空回收站</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>清空回收站</string>
 				<key>withspace</key>
@@ -2037,7 +2037,7 @@ rm -rf ${query}</string>
 				<key>keyword</key>
 				<string>vscode here</string>
 				<key>subtext</key>
-				<string>请打开访答窗口再执行（默认在desktop打开）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>在此处打开vscode</string>
 				<key>withspace</key>
@@ -2126,7 +2126,7 @@ rm -rf ${query}</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>永久删除文件</string>
 				<key>types</key>
@@ -2224,7 +2224,7 @@ done</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>正在压缩，请稍后</string>
 				<key>type</key>
@@ -2302,7 +2302,7 @@ done</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>对目录下的所有文件进行重命名排序（1-n）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>重命名</string>
 				<key>types</key>
@@ -2382,7 +2382,7 @@ done</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>请输入文件名或目录进行批量压缩</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>压缩图片</string>
 				<key>types</key>
@@ -2489,7 +2489,7 @@ end alfred_script</string>
       tell current session to write text command
 	  tell application "System Events"
 		delay 1.5
-		keystroke "code ."
+		keystroke "code  ."
 	    key code 76
 		delay 0.5
         keystroke "w" using command down
@@ -2573,7 +2573,7 @@ end alfred_script</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>请输入目录关键词</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>在相应位置打开vscode</string>
 				<key>types</key>
@@ -2682,7 +2682,7 @@ end alfred_script</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>在指定目录打开终端</string>
 				<key>types</key>
@@ -2769,7 +2769,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>常用命令查询</string>
 				<key>type</key>
@@ -2808,7 +2808,7 @@ clear</string>
 				<key>keyword</key>
 				<string>code</string>
 				<key>subtext</key>
-				<string>请打开访答窗口再执行（默认在desktop打开）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>在此处打开vscode</string>
 				<key>withspace</key>
@@ -2867,7 +2867,7 @@ end alfred_script</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>withspace</key>
@@ -2993,7 +2993,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询百度</string>
 				<key>type</key>
@@ -3061,7 +3061,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入日期或时间戳（默认展示今天）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>时间格式化</string>
 				<key>type</key>
@@ -3224,7 +3224,7 @@ end alfred_script</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>复制文件路径</string>
 				<key>types</key>
@@ -3272,7 +3272,7 @@ kill -15 ${query} || kill -9 ${query}</string>
 				<key>keyword</key>
 				<string>dirpath here</string>
 				<key>subtext</key>
-				<string>请打开访答窗口再执行（默认在desktop复制）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>复制当前目录路径</string>
 				<key>withspace</key>
@@ -3338,7 +3338,7 @@ kill -15 ${query} || kill -9 ${query}</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入进程名称进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>杀死进程</string>
 				<key>type</key>
@@ -3404,7 +3404,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字符串</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询md5加密结果</string>
 				<key>type</key>
@@ -3491,7 +3491,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入基金代号或基金名称进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>基金查询</string>
 				<key>type</key>
@@ -3540,7 +3540,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入城市或区名进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询天气</string>
 				<key>type</key>
@@ -3589,7 +3589,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字符串</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询base64编码结果</string>
 				<key>type</key>
@@ -3638,7 +3638,7 @@ end alfred_script</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字符串</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询decode加密结果</string>
 				<key>type</key>
@@ -3764,7 +3764,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询百度汉语</string>
 				<key>type</key>
@@ -3813,7 +3813,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字节数</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>字节转换</string>
 				<key>type</key>
@@ -3836,7 +3836,7 @@ echo -n "$query" | say $query</string>
 				<key>keyword</key>
 				<string>热搜</string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>热搜</string>
 				<key>withspace</key>
@@ -3881,7 +3881,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询天气详情</string>
 				<key>type</key>
@@ -3947,7 +3947,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
@@ -3996,7 +3996,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入字符串</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询encode加密结果</string>
 				<key>type</key>
@@ -4045,7 +4045,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入股票名称或代号进行精确查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>股票查询</string>
 				<key>type</key>
@@ -4113,7 +4113,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入城市或区名进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询天气</string>
 				<key>type</key>
@@ -4162,7 +4162,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询百度汉语</string>
 				<key>type</key>
@@ -4228,7 +4228,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
@@ -4276,7 +4276,7 @@ echo -n "$query" | say $query</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>withspace</key>
@@ -4297,7 +4297,7 @@ echo -n "$query" | say $query</string>
 				<key>keyword</key>
 				<string>rs</string>
 				<key>subtext</key>
-				<string>各大网站热搜榜</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
 				<string>热搜</string>
 				<key>withspace</key>
@@ -4344,7 +4344,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>获取每日番剧信息</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>每日番剧查询</string>
 				<key>type</key>
@@ -4454,7 +4454,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 6.3.2 → 1.0.9. Run `npm install -g alfred-tools`</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
@@ -4503,7 +4503,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>一键获取每日bing图</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>每日bing</string>
 				<key>type</key>
@@ -4571,7 +4571,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>获取每日番剧信息</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>每日番剧查询</string>
 				<key>type</key>
@@ -4620,7 +4620,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>一键获取美女图片列表</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取随机美女照片列表</string>
 				<key>type</key>
@@ -4707,7 +4707,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>bilibili搜索</string>
 				<key>type</key>
@@ -4756,7 +4756,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>微信读书搜索</string>
 				<key>type</key>
@@ -4805,7 +4805,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取表情包列表</string>
 				<key>type</key>
@@ -4892,7 +4892,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>一键获取美女图片列表</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取随机美女照片列表</string>
 				<key>type</key>
@@ -4941,7 +4941,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入bilibili视频链接进行转换</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>bilibili视频解析</string>
 				<key>type</key>
@@ -4990,7 +4990,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入金额进行转换查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>汇率查询</string>
 				<key>type</key>
@@ -5058,7 +5058,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取垃圾分类类型</string>
 				<key>type</key>
@@ -5145,7 +5145,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入关键词进行搜索</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取食物消耗卡路里</string>
 				<key>type</key>
@@ -5194,7 +5194,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入bilibili视频链接进行转换</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>bilibili视频解析</string>
 				<key>type</key>
@@ -5243,7 +5243,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入日期进行查询（默认为今天）</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>万年历查询</string>
 				<key>type</key>
@@ -5311,7 +5311,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>一键获取二次元图片列表</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取随机二次元列表</string>
 				<key>type</key>
@@ -5360,7 +5360,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入地区名进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>地区疫情查询</string>
 				<key>type</key>
@@ -5428,7 +5428,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入宝贝关键词进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询淘宝</string>
 				<key>type</key>
@@ -5496,7 +5496,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>一键获取二次元图片列表</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>获取随机二次元图片列表</string>
 				<key>type</key>
@@ -5564,7 +5564,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入地区名进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>地区疫情查询</string>
 				<key>type</key>
@@ -5613,7 +5613,7 @@ echo -n "$query" | say $query</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入宝贝关键词进行查询</string>
+				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
 				<string>查询宝贝</string>
 				<key>type</key>
