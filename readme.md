@@ -121,6 +121,10 @@ yarn global add @xuanzai/happy-work
 
 关键词：byte + 数字
 
+18. 百度百科
+
+关键词：bk / 百科 + 关键词
+
 <br/>
 
 ## 休闲类功能

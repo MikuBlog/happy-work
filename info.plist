@@ -3746,7 +3746,7 @@ echo -n "$query" | say $query</string>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>hy</string>
+				<string>bk</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -3766,7 +3766,7 @@ echo -n "$query" | say $query</string>
 				<key>subtext</key>
 				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
-				<string>查询百度汉语</string>
+				<string>查询百度百科</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -4144,7 +4144,7 @@ echo -n "$query" | say $query</string>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>汉语</string>
+				<string>百科</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
