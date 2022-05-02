@@ -1,3 +1,12 @@
+## [6.4.4](https://github.com/MikuBlog/happy-work/compare/v6.4.3...v6.4.4) (2022-05-02)
+
+
+### Bug Fixes
+
+* 修改百度百科接口 ([e9316d5](https://github.com/MikuBlog/happy-work/commit/e9316d58a22bec59e4564c77cfe71985611d0fc0))
+
+
+
 ## [6.4.3](https://github.com/MikuBlog/happy-work/compare/v6.4.2...v6.4.3) (2022-04-28)
 
 
