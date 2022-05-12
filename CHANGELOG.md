@@ -1,3 +1,12 @@
+## [6.4.5](https://github.com/MikuBlog/happy-work/compare/v6.4.4...v6.4.5) (2022-05-12)
+
+
+### Features
+
+* 新增快捷切换目录 ([5f345f1](https://github.com/MikuBlog/happy-work/commit/5f345f190918be5fc28e5f5e76f9427753bd9918))
+
+
+
 ## [6.4.4](https://github.com/MikuBlog/happy-work/compare/v6.4.3...v6.4.4) (2022-05-02)
 
 
