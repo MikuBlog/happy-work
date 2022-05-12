@@ -925,6 +925,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D2B14B77-521F-477A-83F3-6A1323E6E60D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B19A8EFD-0383-4E0A-A68F-D3258F02D378</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D37B5768-89B8-4A6E-A080-D8E37A91D741</key>
 		<array>
 			<dict>
@@ -4131,6 +4144,64 @@ echo -n "$query" | say $query</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q) 
+tell application "Finder"
+  set the clipboard to (POSIX path of (folder of the front window as alias))
+end tell
+
+tell application "System Events"
+  keystroke "g" using {command down, shift down}
+  delay 0.05
+  keystroke "v" using command down
+  delay 0.05
+  key code 36
+end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>B19A8EFD-0383-4E0A-A68F-D3258F02D378</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D2B14B77-521F-477A-83F3-6A1323E6E60D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -6312,6 +6383,13 @@ appid申请地址：https://www.mxnzp.com/
 			<key>ypos</key>
 			<integer>1455</integer>
 		</dict>
+		<key>B19A8EFD-0383-4E0A-A68F-D3258F02D378</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1905</integer>
+			<key>ypos</key>
+			<integer>1735</integer>
+		</dict>
 		<key>B2D95CD2-2118-4423-957C-EEAA380BA0C6</key>
 		<dict>
 			<key>xpos</key>
@@ -6409,6 +6487,13 @@ appid申请地址：https://www.mxnzp.com/
 			<integer>850</integer>
 			<key>ypos</key>
 			<integer>2525</integer>
+		</dict>
+		<key>D2B14B77-521F-477A-83F3-6A1323E6E60D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1695</integer>
+			<key>ypos</key>
+			<integer>1735</integer>
 		</dict>
 		<key>D37B5768-89B8-4A6E-A080-D8E37A91D741</key>
 		<dict>

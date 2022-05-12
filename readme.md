@@ -125,6 +125,10 @@ yarn global add @xuanzai/happy-work
 
 关键词：bk / 百科 + 关键词
 
+19. 将下载窗口索引至第一个finder窗口
+
+热键：ctrl + d
+
 <br/>
 
 ## 休闲类功能
