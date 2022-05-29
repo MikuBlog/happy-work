@@ -1,3 +1,12 @@
+## [6.4.6](https://github.com/MikuBlog/happy-work/compare/v6.4.5...v6.4.6) (2022-05-29)
+
+
+### Bug Fixes
+
+* 在此处打开vscode ([7db375b](https://github.com/MikuBlog/happy-work/commit/7db375b9f746611775bed5289ed0c1c6f46789bc))
+
+
+
 ## [6.4.5](https://github.com/MikuBlog/happy-work/compare/v6.4.4...v6.4.5) (2022-05-12)
 
 
