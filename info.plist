@@ -2504,7 +2504,7 @@ end alfred_script</string>
 		delay 1.5
 		keystroke "code  ."
 	    key code 76
-		delay 0.5
+		delay 1
         keystroke "w" using command down
       end tell
 	end tell 
