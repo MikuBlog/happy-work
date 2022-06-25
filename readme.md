@@ -129,6 +129,10 @@ yarn global add @xuanzai/happy-work
 
 热键：ctrl + d
 
+20. 在访答中打开路径输入框
+
+热键：ctrl + f
+
 <br/>
 
 ## 休闲类功能

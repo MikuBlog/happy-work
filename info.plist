@@ -574,6 +574,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7EC38D51-B22E-4C8F-A8AB-43374ABF1791</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>98B1ACD3-8D93-4F15-84E9-EBA8D21FB807</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7FF0CB7E-4F08-4EBB-9EE9-4C0B398FC10B</key>
 		<array>
 			<dict>
@@ -1191,6 +1204,54 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "System Events"	keystroke "g" using (command down, shift down)  end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>98B1ACD3-8D93-4F15-84E9-EBA8D21FB807</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>3</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>F</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>7EC38D51-B22E-4C8F-A8AB-43374ABF1791</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1424,7 +1485,7 @@
     else
 		set pathList to "desktop"
 	end if
-    set command to "clear &amp;&amp; cd " &amp; pathList
+    set command to " clear &amp;&amp; cd " &amp; pathList
   end tell
   
   tell application "System Events"
@@ -2501,11 +2562,10 @@ end alfred_script</string>
     	tell the first window
       tell current session to write text command
 	  tell application "System Events"
-		delay 1.5
 		keystroke "code  ."
 	    key code 76
-		delay 1
-        keystroke "w" using command down
+		#delay 5
+        #keystroke "w" using command down
       end tell
 	end tell 
   end tell
@@ -6220,6 +6280,13 @@ appid申请地址：https://www.mxnzp.com/
 			<key>ypos</key>
 			<integer>1835</integer>
 		</dict>
+		<key>7EC38D51-B22E-4C8F-A8AB-43374ABF1791</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>775</integer>
+		</dict>
 		<key>7FF0CB7E-4F08-4EBB-9EE9-4C0B398FC10B</key>
 		<dict>
 			<key>xpos</key>
@@ -6296,6 +6363,13 @@ appid申请地址：https://www.mxnzp.com/
 			<integer>3545</integer>
 			<key>ypos</key>
 			<integer>1610</integer>
+		</dict>
+		<key>98B1ACD3-8D93-4F15-84E9-EBA8D21FB807</key>
+		<dict>
+			<key>xpos</key>
+			<integer>605</integer>
+			<key>ypos</key>
+			<integer>775</integer>
 		</dict>
 		<key>99320D85-0298-481A-810C-C69CEA390FFA</key>
 		<dict>
