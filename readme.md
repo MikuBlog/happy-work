@@ -58,11 +58,13 @@ yarn global add @xuanzai/happy-work
 
 > 效果为：rm -rf，请谨慎使用
 
-7. 杀掉进程
+7. 杀掉进程【已废弃】
 
 关键词：kill + 进程名
 
 > 效果为 kill -15 xxx || kill -9 xxxx
+
+> 请使用第三方工作流，体验更佳：https://github.com/ngreenstein/alfred-process-killer
 
 8. 复制文件路径
 

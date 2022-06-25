@@ -3413,7 +3413,7 @@ kill -15 ${query} || kill -9 ${query}</string>
 				<key>subtext</key>
 				<string>Update available: 6.4.2 → 6.4.1. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>title</key>
-				<string>杀死进程</string>
+				<string>杀死进程【已废弃】</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -5780,7 +5780,10 @@ moyu_appsecret
 appid申请地址：https://www.mxnzp.com/
 支持功能：
 1. 随机美女列表
-2.</string>
+
+
+【更多三方工作流推荐】
+https://blog.csdn.net/u013637931/article/details/110948668</string>
 	<key>uidata</key>
 	<dict>
 		<key>061DFEEF-0E7F-4757-BED5-7D208FD4BDAC</key>
