@@ -319,6 +319,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>562D082A-1ACB-46DF-989F-978970971FF0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A513B86B-D05F-4BC2-B171-FFD8E6151A36</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>569BEA82-056F-4C97-843D-8A689ADB8521</key>
 		<array>
 			<dict>
@@ -4330,6 +4343,25 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A513B86B-D05F-4BC2-B171-FFD8E6151A36</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -5783,7 +5815,8 @@ appid申请地址：https://www.mxnzp.com/
 
 
 【更多三方工作流推荐】
-https://blog.csdn.net/u013637931/article/details/110948668</string>
+https://blog.csdn.net/u013637931/article/details/110948668
+https://github.com/zenorocha/alfred-workflows</string>
 	<key>uidata</key>
 	<dict>
 		<key>061DFEEF-0E7F-4757-BED5-7D208FD4BDAC</key>
@@ -6417,6 +6450,13 @@ https://blog.csdn.net/u013637931/article/details/110948668</string>
 			<integer>115</integer>
 			<key>ypos</key>
 			<integer>1225</integer>
+		</dict>
+		<key>A513B86B-D05F-4BC2-B171-FFD8E6151A36</key>
+		<dict>
+			<key>xpos</key>
+			<integer>3540</integer>
+			<key>ypos</key>
+			<integer>1745</integer>
 		</dict>
 		<key>A6952656-C2DE-4B02-9E5E-74FAB1153FCA</key>
 		<dict>

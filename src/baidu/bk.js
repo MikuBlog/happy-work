@@ -1,9 +1,11 @@
 import axios from 'axios';
 import alfy from 'alfy';
-import { delHtmlTag } from "../utils/handleInput.js";
+// import { delHtmlTag } from "../utils/handleInput.js";
+
+const encodeInput = encodeURIComponent(alfy.input);
 
 axios({
-  url: `https://api.iyk0.com/bk/?msg=${encodeURIComponent(alfy.input)}`,
+  url: `https://api.iyk0.com/bk/?msg=${encodeInput}`,
   method: 'get',
 }).then(res => {
   const { code, name, content } = res.data
@@ -11,11 +13,13 @@ axios({
     alfy.output([{
       title: content,
       subtitle: name,
-      arg: content,
+      arg: `https://hanyu.baidu.com/zici/s?wd=${encodeInput}&query=${encodeInput}`,
     }])
   } else {
     alfy.output([{
       title: '没有找到相关结果',
+      subtitle: '回车前往百度搜索',
+      arg: `https://www.baidu.com/s?wd=${encodeInput}`,
     }])
   }
 }).catch(err => {
