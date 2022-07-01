@@ -1,3 +1,12 @@
+## [6.4.10](https://github.com/MikuBlog/happy-work/compare/v6.4.9...v6.4.10) (2022-07-01)
+
+
+### Features
+
+* 优化bk功能 ([b2e1c28](https://github.com/MikuBlog/happy-work/commit/b2e1c28986fcdc3b0bb2318a39481f52908f6afb))
+
+
+
 ## [6.4.9](https://github.com/MikuBlog/happy-work/compare/v6.4.8...v6.4.9) (2022-06-25)
 
 
