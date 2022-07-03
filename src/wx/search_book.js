@@ -24,7 +24,7 @@ axios({
     title: `${val.bookInfo.title}【${val.bookInfo.publisher ? `${val.bookInfo.publisher}-` : ''}${val.bookInfo.author}】`,
     subtitle: val.bookInfo.intro,
     icon: val.bookInfo.cover,
-    arg: `https://weread.qq.com/web/reader/${generateBookKey(val.bookInfo.bookId)}`,
+    arg: `https://weread.qq.com/web/bookDetail/${generateBookKey(val.bookInfo.bookId)}`,
   }))
   await downloadAllPicture(list);
   const fileList = getDirFile(dir);
