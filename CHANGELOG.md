@@ -1,3 +1,12 @@
+## [6.4.12](https://github.com/MikuBlog/happy-work/compare/v6.4.11...v6.4.12) (2022-07-03)
+
+
+### Bug Fixes
+
+* 修改百科跳转链接 ([4b4dd99](https://github.com/MikuBlog/happy-work/commit/4b4dd99999afbfcd35b6f045bb26700169b07054))
+
+
+
 ## [6.4.11](https://github.com/MikuBlog/happy-work/compare/v6.4.10...v6.4.11) (2022-07-01)
 
 
