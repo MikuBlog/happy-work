@@ -1,3 +1,12 @@
+## [6.4.13](https://github.com/MikuBlog/happy-work/compare/v6.4.12...v6.4.13) (2022-07-03)
+
+
+### Bug Fixes
+
+* 修复weread跳转路径错误问题 ([ed74313](https://github.com/MikuBlog/happy-work/commit/ed7431312c5f65f64bc549596bf4be63e147d907))
+
+
+
 ## [6.4.12](https://github.com/MikuBlog/happy-work/compare/v6.4.11...v6.4.12) (2022-07-03)
 
 
