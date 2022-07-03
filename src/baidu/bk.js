@@ -13,7 +13,8 @@ axios({
     alfy.output([{
       title: content,
       subtitle: name,
-      arg: `https://hanyu.baidu.com/zici/s?wd=${encodeInput}&query=${encodeInput}`,
+      // arg: `https://hanyu.baidu.com/zici/s?wd=${encodeInput}&query=${encodeInput}`,
+      arg: `https://baike.baidu.com/item/${encodeInput}`
     }])
   } else {
     alfy.output([{
