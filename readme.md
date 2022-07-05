@@ -207,6 +207,10 @@ yarn global add @xuanzai/happy-work
 
 关键词：zn + 关键词筛选
 
+16. 微博搜索
+
+关键词：wb + 关键词筛选
+
 # 主题
 
 【白昼主题】

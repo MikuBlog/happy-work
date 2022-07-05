@@ -124,6 +124,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>27942247-DA8D-4B87-BDA4-D080B0A0E314</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0934E905-74EC-4C88-B8F8-CF7DFF45427C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>27D22F5B-8862-44F6-BF21-0DCADE16C49A</key>
 		<array>
 			<dict>
@@ -5872,6 +5885,74 @@ end alfred_script</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>wb</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>查询中，请稍后</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node ./src/wb/search.js "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Update available: 6.4.13 → 6.4.12. Run `npm install -g @xuanzai/happy-work`</string>
+				<key>title</key>
+				<string>查询微博</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>27942247-DA8D-4B87-BDA4-D080B0A0E314</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0934E905-74EC-4C88-B8F8-CF7DFF45427C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>【天气查询】
@@ -5913,6 +5994,13 @@ https://github.com/zenorocha/alfred-workflows</string>
 			<integer>3545</integer>
 			<key>ypos</key>
 			<integer>1480</integer>
+		</dict>
+		<key>0934E905-74EC-4C88-B8F8-CF7DFF45427C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>2990</integer>
 		</dict>
 		<key>094B5A5F-4533-4BE4-9DA9-FCE5D7E9171A</key>
 		<dict>
@@ -6004,6 +6092,13 @@ https://github.com/zenorocha/alfred-workflows</string>
 			<integer>115</integer>
 			<key>ypos</key>
 			<integer>2125</integer>
+		</dict>
+		<key>27942247-DA8D-4B87-BDA4-D080B0A0E314</key>
+		<dict>
+			<key>xpos</key>
+			<integer>635</integer>
+			<key>ypos</key>
+			<integer>2990</integer>
 		</dict>
 		<key>27D22F5B-8862-44F6-BF21-0DCADE16C49A</key>
 		<dict>
