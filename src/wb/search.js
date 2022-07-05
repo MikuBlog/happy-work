@@ -22,7 +22,7 @@ axios({
   const list = [];
   if (user && Array.isArray(user) && user.length) {
     list.push(...user.map(val => ({
-      title: `${val.u_name}【${val.verified_reason}】`,
+      title: `${val.u_name}${val.verified_reason ? `【${val.verified_reason}】` : ''}`,
       subtitle: `${val.verified ? '·认证· ' : ''}${val.description}`,
       arg: `https://weibo.com/u/${val.u_id}`,
       image: val.u_pic,
