@@ -1,3 +1,12 @@
+## [6.4.14](https://github.com/MikuBlog/happy-work/compare/v6.4.13...v6.4.14) (2022-07-05)
+
+
+### Features
+
+* 新增渣男语录 ([85c43a3](https://github.com/MikuBlog/happy-work/commit/85c43a33d94afcb6fa8570a2ff98f11229dffbaf))
+
+
+
 ## [6.4.13](https://github.com/MikuBlog/happy-work/compare/v6.4.12...v6.4.13) (2022-07-03)
 
 
