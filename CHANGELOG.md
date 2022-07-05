@@ -1,3 +1,12 @@
+## [6.4.16](https://github.com/MikuBlog/happy-work/compare/v6.4.15...v6.4.16) (2022-07-05)
+
+
+### Bug Fixes
+
+* 修复history ([4a571aa](https://github.com/MikuBlog/happy-work/commit/4a571aa717c54b3cfa7f262bab028b271a328cf4))
+
+
+
 ## [6.4.15](https://github.com/MikuBlog/happy-work/compare/v6.4.14...v6.4.15) (2022-07-05)
 
 
