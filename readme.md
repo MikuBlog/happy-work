@@ -228,3 +228,5 @@ https://www.alfredapp.com/extras/theme/hbdfskPOgc/
 # 友情推荐
 
 > 【有道云翻译】 https://github.com/wensonsmith/YoudaoTranslator
+
+> 【杀死进程】 https://github.com/nathangreenstein/alfred-process-killer
