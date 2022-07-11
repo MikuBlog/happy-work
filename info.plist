@@ -2029,7 +2029,7 @@ end alfred_script</string>
 				<key>subtext</key>
 				<string>Update available: 6.4.13 → 6.4.12. Run `npm install -g @xuanzai/happy-work`</string>
 				<key>text</key>
-				<string>在此处创建文件</string>
+				<string>在此处创建文件或文件夹</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2046,13 +2046,7 @@ end alfred_script</string>
 				<key>applescript</key>
 				<string>on alfred_script(q)
   
-tell application "Finder"
-    if exists Finder window 1 then
-        make new file at (target of front Finder window as text) with properties {name:q}
-    else
-        make new file at (path to desktop) with properties {name:q}
-	end if
-end tell
+tell application "Finder"	if exists Finder window 1 then		if q contains "." then			make new file at (target of front Finder window as text) with properties {name:q}		else			make new folder at (target of front Finder window as text) with properties {name:q}		end if	else		if q contains "." then			make new file at (path to desktop) with properties {name:q}		else			make new folder at (path to desktop) with properties {name:q}		end if	end ifend tell
   
 end alfred_script</string>
 				<key>cachescript</key>

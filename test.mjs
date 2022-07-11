@@ -1,48 +1,26 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
+import md5 from "md5";
+function url(word) {
+  const isChinese = detectChinese(word);
 
-const resp = await axios({
-  url: 'http://dilidili.in/',
-  method: 'get',
-})
+  const from = isChinese ? "zh-CHS" : "auto";
+  const to = isChinese ? "en" : "zh-CHS";
+  const salt = Math.floor(Math.random() * 10000).toString();
+  const sign = md5(`441c18a1a6f5ee86${word}${salt}KnmAqMh3SKvowjq9fm65JCVKUPLtiwI9`);
 
-const $ = cheerio.load(resp.data);
-const eles = $('#dm_ul_2 > li').map(function (i, el) {
-  return {
-    title: $(this).text(),
-    link: `http://dilidili.in${$(this).find('a').attr('href')}`,
-  };
-}).get();
+  const params = new URLSearchParams({
+    q: word,
+    from,
+    to,
+    appKey: '441c18a1a6f5ee86',
+    salt,
+    sign,
+  });
 
-// // console.log(eles);
+  return "https://openapi.youdao.com/api?" + params.toString();
+}
 
-// const storageArr = new Array(Math.ceil(eles.length / limitArr)).fill([]);
-// let index = -1;
+function detectChinese(word) {
+  return /^[\u4e00-\u9fa5]+$/.test(word);
+}
 
-// eles.forEach((val, ind) => {
-//   if (ind % 10 === 0) {
-//     ++ index;
-//   }
-//   storageArr[index].push(val);
-// })
-
-// const images = [];
-
-// for (let i = 0; i < storageArr.length; i ++) {
-//   images.push(await Promise.all(storageArr[i].map(val => axios({
-//     url: val.link,
-//     method: 'get',
-//   }))));
-//   break;
-// }
-
-// console.log(images)
-
-// console.log(images)
-
-// axios({
-//   url: 'http://dilidili.in/acg/3736/',
-//   method: 'get'
-// }).then(res => {
-//   console.log(res.data)
-// })
+console.log(url('我是一段很长的'));
