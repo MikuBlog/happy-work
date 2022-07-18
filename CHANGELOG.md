@@ -1,173 +1,30 @@
-## [6.4.18](https://github.com/MikuBlog/happy-work/compare/v6.4.17...v6.4.18) (2022-07-11)
-
-
-
-## [6.4.17](https://github.com/MikuBlog/happy-work/compare/v6.4.16...v6.4.17) (2022-07-11)
-
-
-### Features
-
-* cf命令可创建文件夹 ([87aa02e](https://github.com/MikuBlog/happy-work/commit/87aa02ee768c6b4b2da9f0ecbba947c2f2b4fa8f))
-
-
-
-## [6.4.16](https://github.com/MikuBlog/happy-work/compare/v6.4.15...v6.4.16) (2022-07-05)
-
-
-### Bug Fixes
-
-* 修复history ([4a571aa](https://github.com/MikuBlog/happy-work/commit/4a571aa717c54b3cfa7f262bab028b271a328cf4))
-
-
-
-## [6.4.15](https://github.com/MikuBlog/happy-work/compare/v6.4.14...v6.4.15) (2022-07-05)
-
-
-### Features
-
-* 新增美团搜索 ([57d25b4](https://github.com/MikuBlog/happy-work/commit/57d25b4b21ec68f634f4131a999301a63ec66bb6))
-
-
-
-## [6.4.14](https://github.com/MikuBlog/happy-work/compare/v6.4.13...v6.4.14) (2022-07-05)
-
-
-### Features
-
-* 新增渣男语录 ([85c43a3](https://github.com/MikuBlog/happy-work/commit/85c43a33d94afcb6fa8570a2ff98f11229dffbaf))
-
-
-
-## [6.4.13](https://github.com/MikuBlog/happy-work/compare/v6.4.12...v6.4.13) (2022-07-03)
-
-
-### Bug Fixes
-
-* 修复weread跳转路径错误问题 ([ed74313](https://github.com/MikuBlog/happy-work/commit/ed7431312c5f65f64bc549596bf4be63e147d907))
-
-
-
-## [6.4.12](https://github.com/MikuBlog/happy-work/compare/v6.4.11...v6.4.12) (2022-07-03)
-
-
-### Bug Fixes
-
-* 修改百科跳转链接 ([4b4dd99](https://github.com/MikuBlog/happy-work/commit/4b4dd99999afbfcd35b6f045bb26700169b07054))
-
-
-
-## [6.4.11](https://github.com/MikuBlog/happy-work/compare/v6.4.10...v6.4.11) (2022-07-01)
-
-
-
-## [6.4.10](https://github.com/MikuBlog/happy-work/compare/v6.4.9...v6.4.10) (2022-07-01)
-
-
-### Features
-
-* 优化bk功能 ([b2e1c28](https://github.com/MikuBlog/happy-work/commit/b2e1c28986fcdc3b0bb2318a39481f52908f6afb))
-
-
-
-## [6.4.9](https://github.com/MikuBlog/happy-work/compare/v6.4.8...v6.4.9) (2022-06-25)
-
-
-### Bug Fixes
-
-* 优化 ([4a6b41a](https://github.com/MikuBlog/happy-work/commit/4a6b41afa06bda51709cfc4bc23d87add18571f3))
-
-
-
-## [6.4.8](https://github.com/MikuBlog/happy-work/compare/v6.4.7...v6.4.8) (2022-06-25)
-
-
-
-## [6.4.7](https://github.com/MikuBlog/happy-work/compare/v6.4.6...v6.4.7) (2022-06-25)
-
-
-### Bug Fixes
-
-* 修复一些问题 ([f820287](https://github.com/MikuBlog/happy-work/commit/f8202872a4ae83887a408adec5170bc457a38f42))
-
-
-
-## [6.4.6](https://github.com/MikuBlog/happy-work/compare/v6.4.5...v6.4.6) (2022-05-29)
-
-
-### Bug Fixes
-
-* 在此处打开vscode ([7db375b](https://github.com/MikuBlog/happy-work/commit/7db375b9f746611775bed5289ed0c1c6f46789bc))
-
-
-
-## [6.4.5](https://github.com/MikuBlog/happy-work/compare/v6.4.4...v6.4.5) (2022-05-12)
-
-
-### Features
-
-* 新增快捷切换目录 ([5f345f1](https://github.com/MikuBlog/happy-work/commit/5f345f190918be5fc28e5f5e76f9427753bd9918))
-
-
-
-## [6.4.4](https://github.com/MikuBlog/happy-work/compare/v6.4.3...v6.4.4) (2022-05-02)
-
-
-### Bug Fixes
-
-* 修改百度百科接口 ([e9316d5](https://github.com/MikuBlog/happy-work/commit/e9316d58a22bec59e4564c77cfe71985611d0fc0))
-
-
-
-## [6.4.3](https://github.com/MikuBlog/happy-work/compare/v6.4.2...v6.4.3) (2022-04-28)
-
-
-### Bug Fixes
-
-* 修复vscode打开此处问题 ([6799611](https://github.com/MikuBlog/happy-work/commit/6799611a6c12aa5b9262115d75ef142092152005))
-
-
-
-## [6.4.2](https://github.com/MikuBlog/happy-work/compare/v6.4.1...v6.4.2) (2022-04-27)
-
-
-### Bug Fixes
-
-* 修复vscode打开此处问题 ([523453e](https://github.com/MikuBlog/happy-work/commit/523453e4088480bc480bed89b3f58781c38475f1))
-
-
-
-## [6.4.1](https://github.com/MikuBlog/happy-work/compare/v6.4.0...v6.4.1) (2022-04-25)
-
-
-
-# [6.4.0](https://github.com/MikuBlog/happy-work/compare/v6.3.12...v6.4.0) (2022-04-25)
+## [6.4.19](https://github.com/MikuBlog/happy-work/compare/v6.3.9...v6.4.19) (2022-07-18)
 
 
 ### Bug Fixes
 
 * 更新readme ([5ee47e4](https://github.com/MikuBlog/happy-work/commit/5ee47e428575b4a3ef836d7289dc01bf8aef4596))
-
-
-
-## [6.3.12](https://github.com/MikuBlog/happy-work/compare/v6.3.11...v6.3.12) (2022-04-25)
-
-
-
-## [6.3.11](https://github.com/MikuBlog/happy-work/compare/v6.3.10...v6.3.11) (2022-04-25)
+* 修复一些问题 ([f820287](https://github.com/MikuBlog/happy-work/commit/f8202872a4ae83887a408adec5170bc457a38f42))
+* 修复history ([4a571aa](https://github.com/MikuBlog/happy-work/commit/4a571aa717c54b3cfa7f262bab028b271a328cf4))
+* 修复vscode打开此处问题 ([6799611](https://github.com/MikuBlog/happy-work/commit/6799611a6c12aa5b9262115d75ef142092152005))
+* 修复vscode打开此处问题 ([523453e](https://github.com/MikuBlog/happy-work/commit/523453e4088480bc480bed89b3f58781c38475f1))
+* 修复weread跳转路径错误问题 ([ed74313](https://github.com/MikuBlog/happy-work/commit/ed7431312c5f65f64bc549596bf4be63e147d907))
+* 修改百度百科接口 ([e9316d5](https://github.com/MikuBlog/happy-work/commit/e9316d58a22bec59e4564c77cfe71985611d0fc0))
+* 修改百科跳转链接 ([4b4dd99](https://github.com/MikuBlog/happy-work/commit/4b4dd99999afbfcd35b6f045bb26700169b07054))
+* 一系列问题 ([7ca5365](https://github.com/MikuBlog/happy-work/commit/7ca5365a5e16ff11abb5dede16a6c0f68b49f8e3))
+* 优化 ([4a6b41a](https://github.com/MikuBlog/happy-work/commit/4a6b41afa06bda51709cfc4bc23d87add18571f3))
+* 在此处打开vscode ([7db375b](https://github.com/MikuBlog/happy-work/commit/7db375b9f746611775bed5289ed0c1c6f46789bc))
 
 
 ### Features
 
+* 新增快捷切换目录 ([5f345f1](https://github.com/MikuBlog/happy-work/commit/5f345f190918be5fc28e5f5e76f9427753bd9918))
+* 新增美团搜索 ([57d25b4](https://github.com/MikuBlog/happy-work/commit/57d25b4b21ec68f634f4131a999301a63ec66bb6))
+* 新增渣男语录 ([85c43a3](https://github.com/MikuBlog/happy-work/commit/85c43a33d94afcb6fa8570a2ff98f11229dffbaf))
+* 新增cmd命令 ([0a5f42a](https://github.com/MikuBlog/happy-work/commit/0a5f42a0a6149f562fc29603edc5174c39483474))
 * 新增command命令 ([e04a93b](https://github.com/MikuBlog/happy-work/commit/e04a93b146c0d78e52df559bd85315748ff62ddf))
-
-
-
-## [6.3.10](https://github.com/MikuBlog/happy-work/compare/v6.3.9...v6.3.10) (2022-04-25)
-
-
-### Bug Fixes
-
-* 一系列问题 ([7ca5365](https://github.com/MikuBlog/happy-work/commit/7ca5365a5e16ff11abb5dede16a6c0f68b49f8e3))
+* 优化bk功能 ([b2e1c28](https://github.com/MikuBlog/happy-work/commit/b2e1c28986fcdc3b0bb2318a39481f52908f6afb))
+* cf命令可创建文件夹 ([87aa02e](https://github.com/MikuBlog/happy-work/commit/87aa02ee768c6b4b2da9f0ecbba947c2f2b4fa8f))
 
 
 
