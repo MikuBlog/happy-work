@@ -85,6 +85,21 @@ const common = [
     description: 'npm view <包名> versions',
     command: 'npm view <包名> versions',
   },
+  {
+    label: 'npm 发布预览版本',
+    description: 'npm version prepatch --preid alpha',
+    command: 'npm version prepatch --preid alpha',
+  },
+  {
+    label: 'npm 发布beta版本',
+    description: 'npm version prepatch --preid beta',
+    command: 'npm version prepatch --preid beta',
+  },
+  {
+    label: 'npm 查看全局安装包路径',
+    description: 'npm list -g --depth 0',
+    command: 'npm list -g --depth 0',
+  },
 ]
 // 数组转换
 function transformList(sourceList) {
